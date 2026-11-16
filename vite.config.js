@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"github_push_react",
+  base:"/github_push_react",
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
